@@ -5,7 +5,7 @@ import random
 st.title('2023最新の幸運を入手')
 
 if st.button('抽選'):
-    results=["大吉","中吉","小吉","吉","凶","大凶","大貴"]
+    results=["大吉","中吉","小吉","吉","凶","大凶","小川","長野","佐藤","安部"]
     result=random.choice(results)
     st.write(f"結果:{result}")
  
